@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <center>
+        <h1>Drug Repurposing Web Application</h1>
+        <form enctype="multipart/form-data" action="RPUpload" method="POST">
+            <label for="name">Select a drug:</label>
+            <select name="IDrug">
+                <option value="donepezil">Donepezil</option>
+                <option value="rivastigmine">Rivastigmine</option>
+                <option value="memantine">Memantine</option>
+                <option value="galantamine">Galantamine</option>
+                <option value="tacrine">Tacrine</option>
+            </select><br/>
+            <label for="name">Choose input drugs:</label><br/>
+            <input type="file" name="file"><br>
+            <div class="button">
+                <button type="submit">Go</button>
+            </div>
+        </form>
+    </center>
+</body>
+</html>
